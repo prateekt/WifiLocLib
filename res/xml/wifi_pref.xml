@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory 
+		android:title="@string/wifi_localizer_settings"
+		android:key="wifi_localizer_settings">
+
+		<Preference
+			android:key="collect_data_pref"
+			android:title="@string/collect_data_title" 
+			android:summary="@string/collect_data_summary"
+		/>
+		
+		<Preference
+			android:key="train_model_pref"
+			android:title="@string/train_model_title" 
+			android:summary="@string/train_model_summary"
+		/>
+		
+		<Preference
+			android:key="clear_data_pref"
+			android:title="@string/clear_data_title" 
+			android:summary="@string/clear_data_summary"
+		/>
+						
+	</PreferenceCategory>
+	
+</PreferenceScreen>

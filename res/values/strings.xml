@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WifiLocalizerLibrary</string>
+    <string name="DataCollectionLabel">Data Collection</string>
+    <string name="ModelBuildingLabel">Build Model</string>
+    <string name="numberOfReadingsPrompt">Choose Number of Readings Per Click</string>
+    <string name="chooseNumReadings">Choose Number of Readings Per Click:</string>
+    <string name="enterLocTag">Enter Location Tag:</string>
+    <string name="locTag">Location Tag</string>
+    <string name="selOrientation">Select Orientation:</string>
+    <string name="scanButtonText">Scan and Collect Data</string>
+    <string-array name="numberOfReadings">
+        <item >1</item>
+        <item >5</item>
+        <item >10</item>
+        <item >20</item>
+        <item >30</item>
+        <item >50</item>        
+        <item >100</item>        
+	</string-array>
+    <string name="orientationsPrompt">Choose Orientation</string>       
+    <string-array name="orientations">
+        <item >North</item>
+        <item >East</item>
+        <item >South</item>
+        <item >West</item>
+	</string-array>
+	<string name="wifi_localizer_settings">Wi-Fi Localizer Settings</string>
+    <string name="collect_data_title">Collect Training Data</string>
+    <string name="collect_data_summary">Collect data for training Wi-Fi Localizer</string>
+    <string name="train_model_title">Train Model</string>
+    <string name="train_model_summary">Train Wi-Fi Localizer based on collected training data.</string>
+    <string name="clear_data_title">Clear Data</string>
+    <string name="clear_data_summary">Clear training and model data.</string>
+    <string name="confirm_clear_data">Clear Data?</string>
+    <string name="confirm_clear_data_message">Are you sure you want to clear all Wi-Fi Localizer data? Warning: THIS CAN NOT BE UNDONE.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
