@@ -1,6 +1,7 @@
 package com.PP.wifilocalizerlib.Activities;
 
 import android.content.BroadcastReceiver;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -42,12 +43,14 @@ public class DataCollectionActivity extends BaseWifiActivity
 		setContentView(R.layout.data_collection_layout);		
 		buttonScan = (Button) findViewById(R.id.buttonScan);
 		buttonScan.setOnClickListener(this);
+		buttonScan.setBackgroundColor(Color.WHITE);
 		locText = (AutoCompleteTextView) findViewById(R.id.locField);
 		Spinner numReadingsSpinner = (Spinner) findViewById(R.id.numReadings);
 		numReadingsSpinner.setOnItemSelectedListener(this);	
+		numReadingsSpinner.setBackgroundColor(Color.WHITE);
 		Spinner orientationSpinner = (Spinner) findViewById(R.id.orientation);
 		orientationSpinner.setOnItemSelectedListener(this);
-		
+		orientationSpinner.setBackgroundColor(Color.WHITE);
 	}	
 	
 	//button call back

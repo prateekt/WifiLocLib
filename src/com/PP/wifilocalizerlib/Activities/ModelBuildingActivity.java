@@ -7,6 +7,7 @@ import java.util.Map;
 
 import android.app.ActionBar.LayoutParams;
 import android.app.Activity;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.TypedValue;
@@ -68,6 +69,7 @@ public class ModelBuildingActivity extends Activity {
 	        //init dynamic button
 	        buildButton = new Button(this);
 	        buildButton.setText("Build Model");
+	        buildButton.setBackgroundColor(Color.WHITE);
 	        buildButton.setOnClickListener(new View.OnClickListener() {
 	            @Override
 				public void onClick(View view) {
