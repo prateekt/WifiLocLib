@@ -7,7 +7,7 @@ See blog post: https://tandonp.wordpress.com/2014/02/13/get-wi-fi-localization-w
 
 Making indoor localization based on Wi-Fi as easy as outdoor localization for Android...
 
-Just do:
+Just call:
 
 public void locateMe()
 
