@@ -11,7 +11,7 @@ Just call:
 
 public void locateMe()
 
-Or use a callback:
+And use a callback to receive the location:
 
 @Override
 public void onLocationChanged(String location) {
